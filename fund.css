@@ -1,0 +1,728 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+header .cases{
+    text-align: right;
+    background-color: rgb(242, 242, 242);
+    padding-top: 5px;
+    height: 30px;
+    border-bottom: 1px solid lightgray;  
+}
+
+.cases p{
+    font-size: 0.9rem;
+    padding-right: 50px;
+    font-weight: 500;
+    color: rgb(81, 80, 80);
+}
+
+.cases a{
+    text-decoration: none;
+    color: #ff9933;
+}
+
+.heading{
+    text-align: right;
+    /* margin: 0px 50px 5px 50px; */
+    margin-top: 15px;
+    padding: 0 70px 0 0; 
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);  
+}
+
+.heading .corner{
+    position: relative;
+    background-image: linear-gradient(to bottom right, #fba832, #f26e1c);
+    height: 90px;
+    width: 350px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: -40px;
+}
+
+.heading .corner::before{
+    content: "";
+    position: absolute;
+    top: 0; right: 0;
+    border-bottom: 30px solid orangered;
+    /* box-shadow: 0px 1px 5px 1px orangered; */
+    border-right: 30px solid rgb(242, 242, 242);
+    width: 0;
+}
+
+.heading .corner h2{
+    font-family: cursive;
+    font-size: 1.8rem;
+    padding-top: 30px;
+    color: white;
+}
+
+ .heading p{
+    font-size: 1.1rem;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    text-align: right;
+    font-weight: 700;
+    color: rgb(81, 80, 80);
+}
+
+.heading span{
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(81, 80, 80);
+}
+
+main{
+    padding-bottom: 5px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.navbar a{
+    background-color:#ff9933;
+    border: 1px solid rgb(247, 194, 95);
+    height: 100%;
+    font-size: 1.158rem;
+    padding: 10px 7px;
+    font-weight: 600;
+    color: white;
+}
+
+.voice{
+    margin: 1px 0 5px 0;
+    display: flex;
+}
+
+.left{
+    width: 71%;
+    border: 1px solid lightgray;
+    margin-right: 5px;
+    position: relative;
+    box-shadow: 0px 0px 20px 1px #dadada inset;
+}
+
+.left img{
+    width: 100%;
+   height: 100%;
+}
+
+.msg{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+   
+}
+
+.msg .span1{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(177, 177, 177);
+}
+
+.msg .span2{
+    line-height: 65px;
+    font-size: 90px;
+    font-weight: 600;
+    color: #ff9933;
+}
+
+main .card{
+    font-size: 14px;
+    width:29%;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    border-radius: 0;
+}
+
+.topnav{
+    display: flex;  
+}
+
+.tn1 {
+    width: 40%;
+    padding: 5px 15px;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.tn2 {
+    padding: 8px 15px;
+    width: 70%;
+    background-color: rgba(203, 202, 202, 0.412);   
+}
+
+.topcontent{
+    margin: 20px;   
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.8rem;
+}
+
+.text{
+    line-height: 28px;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.card .card-body{
+    padding: 30px 20px 30px 40px;  
+}
+
+.card-body .btn{
+    border-radius: 0;
+    padding: 5px 15px;
+    margin-top: 10px;
+    /* background-color: #ff9933; */
+    background-image: linear-gradient(to bottom right, #fba832, #f26e1c);
+    border: 1px solid #ff9933;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 8px 5px -3px rgba(0, 0, 0, 0.5);  
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div {
+    width: 32.5%;
+    height: 160px;
+    border: 1px solid lightgray;
+    position: relative;
+    overflow: hidden;
+}
+
+.div img{
+    width: 100%;
+    height: 100%;
+}
+
+ .content{
+    position: absolute;
+    top: 10px;
+    padding: 2px 10px 5px 10px; 
+    line-height: 2px;
+    height: 100%;
+}
+
+.content h5{
+    color: #ff9933;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+
+.content p{
+    font-size: 1rem;
+    width: 55%;
+    line-height: 20px;
+    color: rgb(81, 80, 80);
+}
+
+.content a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+}
+
+.main2{
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+    padding: 0 40px 30px 0px;
+    /* box-shadow: 0 3px 5px rgb(0 0 0 / 0.2); */
+}
+
+.map{
+    display: flex;
+}
+
+.main2-left{
+    width: 70%;
+}
+
+.main2-left .mpara{
+    font-size: 1.2rem;
+    color: #ff9933;
+    line-height: 22px;
+    padding: 15px 35px 15px 5px;
+}
+
+.maps img{
+    width: 100%;
+}
+
+.maps{
+    width: 40%;
+    padding: 5px;
+}
+
+.watch h5{
+    color: #ff9933;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+
+.watch p{
+    line-height: 20px;
+    font-size: 1rem;
+    word-spacing: 5px;
+    color: rgb(81, 80, 80);
+    padding-left: 5px;
+}
+
+.watch a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+    padding-left: 5px;
+    padding-top: 0;
+}
+
+.where{
+    margin-right: 40px;
+}
+
+.where h5{
+    color: #ff9933;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    
+}
+
+.where a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+}
+
+.main2-right{
+    width: 30%;
+    border-left: 1px dotted lightgray;
+    padding: 13px 3px 3px 30px; 
+}
+
+.main2-right img{
+    width: 100%;
+}
+
+.main2-right h5{
+    color: #ff9933;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+
+.main2-right p{
+    font-size: 1rem;
+    line-height: 20px;
+    word-spacing: 5px;
+    color: rgb(81, 80, 80);
+  
+}
+
+.main2-right a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: 35px;
+}
+
+footer h3{
+    color: blue;
+    padding-bottom: 10px;
+}
+
+footer .bottom{
+    display: flex;
+  
+}
+
+.bottom div{
+    border: 1px solid lightgray;
+    width: 15%;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.bottom .empty{
+    background-color: white;
+}
+
+.bottom div img{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom .policy{
+    width: 50%;
+    padding: 0 10px;
+    border: none;
+}
+
+.bottom .policy p,.pspan{
+    font-size: 1rem;
+    word-spacing: 5px;
+    color: #b8b8b8;
+    padding-bottom: 5px;
+}
+
+
+.bottom .policy a{
+    text-decoration: none;
+    font-size: 1rem;
+    word-spacing: 5px;
+    color: #b8b8b8;
+} 
+.bottom .policy .icons{
+    border: none;
+    position: relative;
+    bottom: 15px;
+    /* padding-top: 5px; */
+}
+.bottom .policy .icons img{
+    height: 28px;
+    width: 28px;
+}
+
+.bottom .policy .icons .share{
+    border: 1px solid gray;
+    width: 120px;
+    height: 32px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    left: 100px;
+    bottom: 48px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    color: rgb(81, 80, 80);
+    font-size: 1rem;
+    font-weight: 600; 
+}
+
+.bottom .policy .icons .share img{
+    height: 20px;
+    width: 20px;
+}
+
+
+@media screen and (max-width:1400px){
+    .navbar a{
+        font-size: 0.98rem;  
+    }
+    .heading p{
+        font-size: 0.9rem;  
+        padding-right: 20px;
+    }
+    .heading span{
+        font-size: 0.85rem;  
+    }
+}
+
+@media screen and (max-width:1250px){
+    .navbar a{
+        font-size: 0.979rem;  
+    }
+    .heading p{
+        font-size: 0.8rem;  
+    }
+    .heading span{
+        font-size: 0.75rem;  
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .navbar a{
+        font-size: 0.8rem;  
+    }
+    .heading p{
+        font-size: 0.7rem;  
+    }
+    .heading span{
+        font-size: 0.65rem;  
+    }
+    .heading .corner{
+        height: 70px;
+        width: 250px;    
+    }
+    .heading .corner h2{
+        font-size: 1.5rem;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:992px){
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .div{
+        width: 100%;
+    }
+    .content h5{
+        font-size: 1.3rem;
+    }   
+    .content p{
+        font-size: 1.2rem;
+    } 
+    .content a{
+        font-size: 1.1rem;  
+    }
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+    .bottom div{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .bottom .policy .icons{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;  
+        margin: 0 auto;
+    }
+    .bottom .policy {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .main2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+    }
+    .main2-left{
+        width: 100%;    
+    }
+    .main2-left .mapara{
+        width: 100%;
+    }
+    .maps{
+        margin: 0;
+    }
+    .main2-right{
+        width: 100%;
+        padding: 0 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .navbar a{
+        font-size: 0.572rem;  
+    }
+    .heading p{
+        font-size: 0.5rem;  
+    }
+    .heading span{
+        font-size: 0.5rem;
+    }
+    .msg .span1{
+        font-size: 2.5rem;
+    }
+    .msg .span2{
+        font-size: 3.5rem;  
+    }
+    .topnav a{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .heading p{
+        font-size: 0.45rem;
+        text-align: right;
+        padding-right: 0;
+    }
+    .heading span{
+        font-size: 0.4rem; 
+        padding-right: 0;
+        margin-right: 0; 
+    }
+    .heading .corner{
+        height: 55px;
+        width: 150px;    
+    }
+    .heading .corner h2{
+        font-size: 0.9rem;
+        padding-top: 20px;   
+    }
+    .navbar a{
+        font-size: 0.395rem;  
+    }
+    .heading .corner::before{
+        border-bottom: 20px solid orangered;
+        border-right: 20px solid rgb(242, 242, 242);  
+    }
+    .voice{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    main .card{
+        width:100% !important;
+    }
+    .map{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;    
+    }
+    .map .maps{
+        width: 100%;
+    }
+    .content h5{
+        font-size: 1.1rem;
+    }   
+    .content p{
+        font-size: 1rem;
+    } 
+    .content a{
+        font-size: 0.9rem;  
+    }
+    .msg .span1{
+        font-size: 2rem;
+    }
+    .msg .span2{
+        font-size: 3rem;  
+    }
+}
+
+@media screen and (max-width:540px){
+    .heading p{
+        font-size: 0.35rem;
+        text-align: right;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+    .heading{
+        height: 40px;
+    }
+    .heading span{
+        font-size: 0.3rem;
+        text-align: right; 
+        padding-right: 0;
+        margin-right: 0; 
+    }
+    .heading .corner::before{
+        border-bottom: 10px solid orangered;
+        border-right: 10px solid rgb(242, 242, 242);  
+    }
+    .heading .corner{
+        height: 35px;
+        width: 100px;    
+    }
+    .heading .corner h2{
+        font-size: 0.5rem;
+         padding-top: 15px; 
+    }
+
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    .bottom div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:410px){
+    .msg .span1{
+        font-size: 1rem;
+    }
+    .msg .span2{
+        line-height: 30px;
+        font-size: 2rem;  
+    }
+    .cases p{
+        font-size: 0.7rem;
+        padding-right: 50px;
+    } 
+    .cases a{
+        text-decoration: none;
+        color: #ff9933;
+    }
+    .heading p{
+        font-size: 0.35rem;
+        text-align: left;
+        
+        margin-top: 30px;
+    }
+    .heading{
+        height: 55px;
+    }
+    .heading span{
+        font-size: 0.3rem;
+        text-align: right; 
+        padding-right: 0;
+        margin-right: 0; 
+    }
+    .div{
+        min-height: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
